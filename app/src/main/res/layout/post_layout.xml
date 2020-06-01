@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_marginLeft="6dp"
+   android:layout_marginRight="6dp"
+    android:layout_marginTop="4dp"
+   android:layout_marginBottom="2dp"
+
+    android:elevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp" >
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            ></ImageView>
+        <TextView
+            android:id="@+id/postTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:text="this is title"
+            android:textColor="#000"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            ></TextView>
+        <TextView
+            android:id="@+id/postdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:maxLines="5"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:text="this is titlejlsdajjdojsdjodajosjdaojdasjodjaojwqowdojdoajojdwojdawojdawoj"
+            android:textColor="#6C6868"
+            android:layout_marginTop="8dp"
+
+            android:fontFamily="sans-serif"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
